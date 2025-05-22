@@ -1,3 +1,43 @@
+# RAG Frontend
+
+This is the frontend for the RAG Splunk Query Generator application. It provides a user interface for entering natural language questions and context data, then displays the generated Splunk queries.
+
+## Prerequisites
+
+- Node.js 14 or higher
+- Yarn or npm
+
+## Running the Application
+
+To run the application, first install the dependencies:
+
+```bash
+yarn install
+# or
+npm install
+```
+
+Then start the development server:
+
+```bash
+yarn start
+# or
+npm start
+```
+
+The application will start on port 3000.
+
+## Features
+
+- Enter natural language questions about your data
+- Provide context in the form of sample logs or event details
+- Generate Splunk queries based on your input
+- Copy generated queries to clipboard
+
+## Backend Connection
+
+The frontend is configured to connect to the backend at `http://localhost:8080`. Make sure the backend is running before using the application.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
