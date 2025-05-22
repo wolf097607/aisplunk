@@ -13,7 +13,7 @@ function App() {
     setSplunkQuery('');
 
     try {
-      const response = await fetch('/api/generate-query', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/api/generate-query`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
